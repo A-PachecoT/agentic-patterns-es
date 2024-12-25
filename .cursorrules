@@ -2,6 +2,8 @@
 
 Este proyecto sigue convenciones de commits semánticos en español, acompañados de emojis para mejorar la legibilidad.
 
+Al final de CADA cambio que propongas, debes escribir el comando para el conventional commit según corresponda.
+
 ## Formato Base
 ```
 <emoji> <tipo>(<alcance>): <descripción>
