@@ -19,7 +19,7 @@ Implementaciones de patrones de diseño fundamentales para agentes LLM:
 - [`/core-patterns/tool-use`](./core-patterns/tool-use/): Patrón de uso de herramientas
   - Ejemplos prácticos con APIs del clima, ArXiv y calculadora
   - Documentación detallada del patrón
-  - Guía de implementación
+  - Guía de implementación aquí: [Tool Use Pattern](./core-patterns/tool-use/README.md)
 
 - `/core-patterns/reflection` (🚧 en progreso): Patrón de reflexión
   - Auto-evaluación y mejora de resultados
@@ -85,8 +85,7 @@ python core-patterns/tool-use/langchain_arxiv_research.py
 
 ## 📖 Documentación Adicional
 
-- [Guía de Commits](./.cursorrules): Convenciones para contribuir al proyecto
-- [Tool Use Pattern](./core-patterns/tool-use/README.md): Documentación detallada del patrón
+- [Cursor Rules](./.cursorrules): Prompt para Cursor. Contiene las instrucciones de convención de commits.
 
 ## 🤝 Contribuciones
 
