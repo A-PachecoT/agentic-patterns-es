@@ -1,6 +1,12 @@
-# 🤖 LangGraph y Patrones de Diseño Agéntico
+# 🤖🕸️ LangGraph y Patrones de Diseño Agéntico
+
+[![LangGraph](https://img.shields.io/badge/LangGraph-Repo-blue)](https://github.com/langchain-ai/langgraph)
+![Version](https://img.shields.io/pypi/v/langgraph)
 
 Este repositorio nace como una iniciativa educativa para la comunidad hispanohablante, con el objetivo de enseñar conceptos avanzados sobre LangGraph y arquitecturas multiagente a través de ejemplos prácticos y documentación en español.
+
+> [!NOTE]
+> Este proyecto utiliza [LangGraph](https://github.com/langchain-ai/langgraph), una librería de código abierto desarrollada por LangChain Inc. para construir agentes y flujos multiagente como grafos.
 
 ## 🎯 Objetivo
 
@@ -86,6 +92,7 @@ python core-patterns/tool-use/langchain_arxiv_research.py
 ## 📖 Documentación Adicional
 
 - [LangChain Academy - Intro to LangGraph](https://academy.langchain.com/courses/intro-to-langgraph): Curso oficial recomendado. Varios ejemplos de este repositorio están inspirados en este excelente curso.
+- [Repositorio Oficial de LangGraph](https://github.com/langchain-ai/langgraph): Código fuente y documentación oficial de la librería.
 
 ## 🤝 Contribuciones
 
