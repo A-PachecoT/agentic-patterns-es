@@ -1,0 +1,93 @@
+# Guía de Commits para el Proyecto
+
+Este proyecto sigue convenciones de commits semánticos en español, acompañados de emojis para mejorar la legibilidad.
+
+## Formato Base
+```
+<emoji> <tipo>(<alcance>): <descripción>
+
+[cuerpo]
+
+[pie]
+```
+
+## Tipos de Commits y sus Emojis
+
+### Cambios Principales
+- 🎉 `init`: Inicio de proyecto
+- ✨ `feat`: Nueva característica
+- 🐛 `fix`: Corrección de error
+- 📝 `docs`: Documentación
+- ♻️  `refactor`: Refactorización de código
+- 🎨 `style`: Cambios de formato/estilo
+- ⚡️ `perf`: Mejoras de rendimiento
+
+### Cambios de Desarrollo
+- 🔧 `chore`: Tareas de mantenimiento
+- 🔨 `build`: Cambios en el sistema de build
+- 👷 `ci`: Cambios en CI/CD
+- ✅ `test`: Añadir o modificar tests
+
+### Cambios de Dependencias
+- ⬆️  `deps`: Actualizar dependencias
+- ⬇️  `deps`: Bajar versión de dependencias
+- ➕ `deps`: Añadir dependencia
+- ➖ `deps`: Eliminar dependencia
+
+### Otros
+- 🚧 `wip`: Trabajo en progreso
+- 🔀 `merge`: Merge de ramas
+- 🔖 `version`: Nueva versión
+- 🚀 `deploy`: Despliegue
+- 🔒 `security`: Seguridad
+
+## Ejemplos
+
+```bash
+# Nueva característica
+git add [archivo] && git commit -m "✨ feat(auth): Implementar login con Google"
+
+# Corrección de bug
+git add [archivos] && git commit -m "🐛 fix(api): Corregir error en validación de tokens"
+
+# Documentación
+git add [archivos] && git commit -m "📝 docs(readme): Actualizar instrucciones de instalación"
+
+# Refactorización
+git add [archivos] && git commit -m "♻️ refactor(core): Simplificar lógica de procesamiento"
+
+# Configuración
+git add [archivos] && git commit -m "🔧 chore: Actualizar configuración de ESLint"
+
+# Tests
+git add [archivos] && git commit -m "✅ test(utils): Añadir tests para funciones helpers"
+```
+
+## Reglas Adicionales
+
+1. La descripción debe:
+   - Usar verbos en infinitivo (Añadir, Implementar, Corregir)
+   - Ser clara y concisa
+   - No terminar en punto
+
+2. El alcance es opcional pero recomendado:
+   - Debe ir entre paréntesis
+   - Usar nombres de módulos/componentes
+
+3. El cuerpo (opcional) debe:
+   - Separarse por una línea en blanco
+   - Explicar el "qué" y el "por qué" (no el "cómo")
+
+4. El pie (opcional) debe:
+   - Referenciar issues/PRs relacionados
+   - Mencionar breaking changes
+
+## Breaking Changes
+
+Si el commit introduce un cambio que rompe la compatibilidad:
+
+```bash
+✨ feat(api)!: Cambiar formato de respuesta a JSON API
+
+BREAKING CHANGE: La API ahora devuelve datos en formato JSON API v1.0
+```
