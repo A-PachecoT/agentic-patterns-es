@@ -85,7 +85,7 @@ python core-patterns/tool-use/langchain_arxiv_research.py
 
 ## 📖 Documentación Adicional
 
-- [Cursor Rules](./.cursorrules): Prompt para Cursor. Contiene las instrucciones de convención de commits.
+- [LangChain Academy - Intro to LangGraph](https://academy.langchain.com/courses/intro-to-langgraph): Curso oficial recomendado. Varios ejemplos de este repositorio están inspirados en este excelente curso.
 
 ## 🤝 Contribuciones
 
