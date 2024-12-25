@@ -1,0 +1,4 @@
+langchain-chroma>=0.1.2
+langchain
+python-dotenv
+requests>=2.31.0
